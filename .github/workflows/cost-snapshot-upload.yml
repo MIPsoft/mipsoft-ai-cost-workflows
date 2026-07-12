@@ -163,7 +163,8 @@ jobs:
                               "Accept": "application/json",
                               "Authorization": "Bearer " + oidc_token,
                               "Content-Type": "application/json",
-                          })
+                              "User-Agent": "mipsoft-cost-snapshot-uploader",
+                           })
                           with opener.open(upload_request, timeout=20) as response:
                               if response.status != 202:
                                   fail("upload", response.status)
