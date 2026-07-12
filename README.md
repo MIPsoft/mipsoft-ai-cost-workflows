@@ -1,9 +1,5 @@
-This repo publishes security-reviewed reusable workflows.
+# MIPsoft workflows
 
-Callers must pin a full 40-character commit SHA.
+Reusable GitHub Actions workflows.
 
-The current workflow requires pull_request context, only reads prices/pr-NNNN.json, requests GitHub OIDC, and uploads to MIPsoft staging.
-
-Source and review live at https://github.com/MIPsoft/mipsoft-ai-cost-manager.
-
-Report vulnerabilities privately; do not open issues.
+Pin workflows to a full commit SHA.
